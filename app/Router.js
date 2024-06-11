@@ -3,6 +3,18 @@ import { routes } from "./routes"
 export function Router() {
     const path = window.location.pathname
 
+    if (path === '/' || path === '/login' || path === '/register') {
+        if (localStorage.getItem('token')) {
+            NavigateTo('/home')
+            return
+        }
+    }
+    if (path === '/home') {
+        if (!localStorage.getItem('token')) {
+            NavigateTo('/login')
+        }
+    }
+
     const publicRoute = routes.public.find(route => route.path === path)
     const privateRoute = routes.private.find(route => route.path === path)
     

@@ -13,3 +13,9 @@
     justify-content: space-between;
     width: 100%;
 }
+.home{
+    cursor: pointer;
+}
+.logout{
+    cursor: pointer;
+}

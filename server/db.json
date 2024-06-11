@@ -11,6 +11,12 @@
       "name": "alejo",
       "email": "alejo@gmail.com",
       "password": "U2FsdGVkX180pn8A8ARsIgjkJoQ1UacOu4TRHaMOraY="
+    },
+    {
+      "id": "40a2",
+      "name": "jose cardona",
+      "email": "jose@gmail.com",
+      "password": "U2FsdGVkX1/ixBuXvEFMx69D7xLB7wW9YfPPtVHVQzM="
     }
   ],
   "tasks": [
