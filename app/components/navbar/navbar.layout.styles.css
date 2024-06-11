@@ -1,0 +1,15 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: var(--green-color);
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-title);
+}
+
+.navbar_list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

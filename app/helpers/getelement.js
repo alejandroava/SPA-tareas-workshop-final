@@ -1,0 +1,1 @@
+export const GetElementById = (id)=> document.getElementById(id)

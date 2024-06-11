@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "19b4",
+      "name": "alejandro",
+      "email": "alejovlasquez@gmail.com",
+      "password": "U2FsdGVkX1/N7fwWsYPUg3X4WhWR+8g8dX44UkhjVtc="
+    },
+    {
+      "id": "3ceb",
+      "name": "alejo",
+      "email": "alejo@gmail.com",
+      "password": "U2FsdGVkX180pn8A8ARsIgjkJoQ1UacOu4TRHaMOraY="
+    }
+  ],
+  "tasks": [
+    {
+      "id": "14bc",
+      "nametask": "Entrenar modificado otravez",
+      "description": "ir al smartfit l-s",
+      "priority": "alta",
+      "date": "2024-06-11"
+    },
+    {
+      "id": "2fb8",
+      "nametask": "lavar moto",
+      "description": "lavar la nkd en el garaje",
+      "priority": "media",
+      "date": "2024-06-12"
+    },
+    {
+      "id": "f35c",
+      "nametask": "ir por mi mama",
+      "description": "al poblado recogerla",
+      "priority": "media",
+      "date": "2024-06-11"
+    }
+  ]
+}

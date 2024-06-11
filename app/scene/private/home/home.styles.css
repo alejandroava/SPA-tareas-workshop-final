@@ -1,0 +1,19 @@
+.form_container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    gap: var(--spacing-half);
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+     gap: var(--spacing-small);
+     margin-top: var(--spacing-half);
+     width: 40%;
+}
+.task_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-small);
+}
